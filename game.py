@@ -5,11 +5,12 @@ age =input("how are old are you ? ")
 print("hello" , name , "you are " , age, "years old")
 # isOlder = int(age)>=18
 # print(isOlder)
-if age>18:
+if int(age) >18:
    print("you are old enough to play!") 
-   want_to_play=input("Do you want to pay? ")
+   want_to_play = input("Do you want to pay? ")
    if want_to_play=="yes":
       print("Let's play!")
-elif: 
-  print("you are not old enogh to play...")    
-  
+   else:print("you are boring go home")
+
+else: 
+ print("you are not old enogh to play...")    
